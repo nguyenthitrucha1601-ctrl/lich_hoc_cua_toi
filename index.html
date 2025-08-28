@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lịch học của tôi</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #fbe9e7; 
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .day {
+      background: #fff8f6; 
+      border: 2px solid #e0b1b1; 
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 2px 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .day:hover {
+      transform: translateY(-5px);
+    }
+
+    .day h2 {
+      background-color: #f8bbd0; 
+      color: #333;
+      padding: 8px;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 18px;
+      margin: 0 0 10px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      background: #fff;
+      margin-bottom: 8px;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid #e0b1b1;
+      font-size: 14px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lịch học của tôi</h1>
+  <div class="container">
+    <div class="day">
+      <h2>Thứ 2</h2>
+      <ul>
+        <li>6h30 - Tối ưu hóa công cụ tìm kiếm (Phòng online)</li>
+      </ul>
+    </div>
+    <div class="day">
+      <h2>Thứ 3</h2>
+      <ul>
+        <li>9h00 - Tư tưởng Hồ Chí Minh (Phòng G002)</li>
+        <li>15h00 - Hệ thống thông tin và địa lí (Phòng A405)</li>
+      </ul>
+    </div>
+    <div class="day">
+      <h2>Thứ 4</h2>
+      <ul>
+        <li>15h00 - Công nghê Java (Phòng B307)</li>
+      </ul>
+    </div>
+    <div class="day">
+      <h2>Thứ 5</h2>
+      <ul>
+        <li>9h00 - Phương pháp nghiên cứu khoa học (Phòng online)</li>
+        <li>15h00 - Phân tích và thiết kế Hệ thống thông tin (Phòng online)</li>
+      </ul>
+    </div>
+    <div class="day">
+      <h2>Thứ 6</h2>
+      <ul>
+        <li>9h00 - Viễn thám ứng dụng (Phòng A203)</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
